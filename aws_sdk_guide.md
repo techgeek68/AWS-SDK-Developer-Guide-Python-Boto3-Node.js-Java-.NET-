@@ -14,7 +14,7 @@
    - [Node.js (aws-sdk v3)](#nodejs-awssdk-v3)
    - [Java / .NET / Go (notes)](#java--net--go-notes)
 5. [Configure credentials (all OS)](#configure-credentials)
-6. [Python examples (Boto3) — list regions, create key pair, create security group]
+6. [Python examples (Boto3) — list regions, create key pair, create security group](#Python-examples-(Boto3)-list-regions-create-keypair-create-security-group)
    - [list_regions.py](#list_regionspy)
    - [create_keypair_and_sg.py](#create_keypair_and_sgpy)
 7. [Windows-specific notes](#windows-specific-notes)

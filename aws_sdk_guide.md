@@ -1,6 +1,6 @@
 # AWS SDK — Developer Guide (Python/Boto3, Node.js, Java, .NET)
 
-> GitHub‑ready, step‑by‑step guide for installing and using the AWS Software Development Kits (SDKs). Focused examples for **Python (Boto3)** with cross‑platform installation instructions (Linux, macOS, Windows). Brief guidance for other popular SDKs (Node.js, Java, .NET) and complete sample scripts for creating an EC2 key pair and a Security Group.
+> A step‑by‑step guide for installing and using the AWS Software Development Kits (SDKs). Focused examples for **Python (Boto3)** with cross‑platform installation instructions (Linux, macOS, Windows). Brief guidance for other popular SDKs (Node.js, Java, and .NET) and complete sample scripts for creating an EC2 key pair and a Security Group.
 
 ---
 
@@ -37,7 +37,7 @@ AWS SDKs provide native libraries that simplify calling AWS APIs from your appli
 - JavaScript/TypeScript — **@aws-sdk/client-*** (v3 modular packages)
 - Java — AWS SDK for Java v2
 - .NET — AWS SDK for .NET
-- Go, Ruby, PHP, C++ and more — see official AWS SDK pages for platform specifics
+- Go, Ruby, PHP, C++, and more — see official AWS SDK pages for platform specifics
 
 ---
 
@@ -60,6 +60,7 @@ AWS SDKs provide native libraries that simplify calling AWS APIs from your appli
 ```bash
 sudo apt update && sudo apt upgrade -y
 sudo apt install -y python3 python3-venv python3-pip unzip curl
+
 # Create & activate a virtualenv (recommended)
 python3 -m venv ~/.venvs/aws-sdk
 source ~/.venvs/aws-sdk/bin/activate
@@ -111,7 +112,7 @@ python -c "import boto3; print('boto3', boto3.__version__)"
 
 **Install Node.js (if needed)**
 - macOS: `brew install node`
-- Linux: use distro package manager or nvm
+- Linux: use the distro package manager or nvm
 - Windows: install from https://nodejs.org or use nvm-windows
 
 **Create project & install modular v3 clients**
@@ -412,12 +413,4 @@ Notes:
 - Example: `python3 -c "import boto3; print(boto3.__version__)"` prints the installed boto3 version.
 
 ---
-
-If you'd like, I can:
-- Export this as `README.md` and provide a download link.
-- Create equivalent Node.js example files and a sample `package.json`.
-- Add GitHub Actions workflow that runs Python linting and executes `list_regions.py` using temporary credentials.
-- Commit the Markdown and the example scripts to a GitHub repo and open a PR (provide repo access/token).
-
-Tell me which one you want and I will produce it now.
 
